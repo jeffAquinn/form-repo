@@ -7,17 +7,17 @@ module.exports = class extends React.Component {
   static displayName = "01-basic-button";
 
   onGreatClick = (evt) => {
-    console.log('The user clicked button-1: great', evt);
+    alert('You think React is Great! ', evt);
   };
 
   onAmazingClick = (evt) => {
-    console.log('The user clicked button-2: amazing', evt);
+    console.log('My secret gnocchi sauce.', evt);
   };
 
   render() {
     return (
       <div>
-        <h1>What do you think of React?</h1>
+        <h1>What do you think of React??</h1>
 
         <button
           name='button-1'
